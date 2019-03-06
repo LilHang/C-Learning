@@ -8,7 +8,7 @@
             "args": [
                 "${file}",
                 "-o",
-                "${fileDirname}/build/${fileBasenameNoExtension}.exe",
+                "${fileDirname}${fileBasenameNoExtension}.exe",
                 "-g",
                 "-Wall",
                 "-static-libgcc",
